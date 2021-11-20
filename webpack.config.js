@@ -50,7 +50,7 @@ module.exports = {
       patterns: [
         { from: 'public/manifest.json', to: '' },
         { from: 'public/service-worker.js', to: '' },
-        { from: 'public/favicon.png', to: 'assets' },
+        { from: 'public/icon.png', to: 'assets' },
       ],
     }),
     new Dotenv(),
